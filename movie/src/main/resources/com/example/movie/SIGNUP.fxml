@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1555.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.movie.HelloController">
+   <children>
+      <ImageView fitHeight="850.0" fitWidth="1555.0" layoutX="2.0" layoutY="1.0" opacity="0.7" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/back.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="Username" layoutX="443.0" layoutY="272.0" prefHeight="40.0" prefWidth="414.0" promptText="username" />
+      <TextField fx:id="Email" layoutX="450.0" layoutY="375.0" prefHeight="40.0" prefWidth="414.0" promptText="email" />
+      <TextField fx:id="Pefered_genres" layoutX="450.0" layoutY="477.0" prefHeight="40.0" prefWidth="414.0" promptText="pefered genres" />
+      <Label layoutX="245.0" layoutY="280.0" prefHeight="31.0" prefWidth="152.0" text="Username :" textFill="#edede6">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="245.0" layoutY="379.0" prefHeight="31.0" prefWidth="152.0" text="Email:" textFill="#edede6">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="245.0" layoutY="480.0" prefHeight="31.0" prefWidth="152.0" text="Pefered genres :" textFill="#edede6">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="252.0" layoutY="583.0" prefHeight="31.0" prefWidth="152.0" text="Password :" textFill="#edede6">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="482.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SIGNUP" wrappingWidth="286.936767578125">
+         <font>
+            <Font name="Arial Black" size="49.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="Password" layoutX="448.0" layoutY="573.0" prefHeight="40.0" prefWidth="414.0" promptText="Password" />
+      <Button fx:id="button13" layoutX="600.0" layoutY="714.0" mnemonicParsing="false" onAction="#press3" prefHeight="26.0" prefWidth="152.0" text="Sign up">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="51.0" fitWidth="73.0" layoutX="179.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/user.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="51.0" fitWidth="58.0" layoutX="179.0" layoutY="364.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/email.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="51.0" layoutX="170.0" layoutY="463.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/comedy.png" />
+         </image></ImageView>
+      <ImageView fitHeight="51.0" fitWidth="62.0" layoutX="179.0" layoutY="568.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/pass.gif" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
